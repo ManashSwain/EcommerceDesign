@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="jpg" href="./img/about/a5.jpg">
+    <script src="https://kit.fontawesome.com/fa1c97a57d.js" crossorigin="anonymous"></script>
+    <title>E-commerce</title>
+</head>
+<body>
+
+  <!-- Navbar Section  -->
+
+  <!-- Navbar start  -->
+
+  <section id="header">
+    <img src="./img/logo.png" alt="logo-image">
+    <div>
+        <ul id="navbar">
+            <li><i id="close" class="fa-sharp fa-solid fa-xmark" onclick="closebar()"></i></li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./shop.html">Shop</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a  href="./about.html">About</a></li>
+            <li><a href="./contact.html" >Contact</a></li>
+            <li><img src="./img/bag.png"  id="lg-bag" alt="bag-image"></li>
+        </ul>
+    </div>
+    <div id="mobile">
+      <img src="./img/bag.png" alt="bag-image">
+      <i id="bar" class="fas fa-outdent" onclick="togglebar()"></i>
+    </div>
+  </section>
+
+  <!-- Navbar end  -->
+
+ 
+   <!-- Table Section  -->
+
+   <!-- Table Section  start -->
+
+
+   <section id="cart" class="section-p1">
+       <table width="100%">
+        <thead>
+            <tr>
+                <td>REMOVE</td>
+                <td>IMAGE</td>
+                <td>PRODUCT</td>
+                <td>PRICE</td>
+                <td>QUANTITY</td>
+                <td>SUBTOTAL</td>
+            </tr>
+            
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                <td><img src="./img/products/f1.jpg" alt="product-image"></td>
+                <td>Cartoon Astronaut T -Shirts</td>
+                <td>$65</td>
+                <td><input type="number" value="1"></td>
+                <td>$130</td>
+            </tr>
+            <tr>
+                <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                <td><img src="./img/products/f2.jpg" alt="product-image"></td>
+                <td>Cartoon Astronaut T -Shirts</td>
+                <td>$45</td>
+                <td><input type="number" value="1"></td>
+                <td>$90</td>
+            </tr>
+            <tr>
+                <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                <td><img src="./img/products/f3.jpg" alt="product-image"></td>
+                <td>Cartoon Astronaut T -Shirts</td>
+                <td>$75</td>
+                <td><input type="number" value="1"></td>
+                <td>$230</td>
+            </tr>
+        </tbody>
+       </table>
+   </section>
+
+
+   <!-- Table Section  end  -->
+
+
+   <section id="cart-add" class="section-p1">
+    <div id="coupon">
+        <h3>Apply Coupon</h3>
+        <div>
+            <input type="text" placeholder="Enter your Coupon">
+            <button class="cta-btn">Apply</button>
+        </div>
+    </div>
+    <div id="subtotal">
+        <h3>Cart Totals</h3>
+        <table>
+            <tr>
+                <td>Cart Subtotal</td>
+                <td>$335</td>
+            </tr>
+            <tr>
+                <td>Shipping</td>
+                <td>Free</td>
+            </tr>
+            <tr>
+                <td><strong>Total</strong></td>
+                <td><strong>$335</strong></td>
+            </tr>
+        </table>
+        <button class="cta-btn checkout-btn">Proceed to checkout</button>
+    </div>
+   </section>
+
+   
+
+
+  <!-- NewsLetter Section  -->
+
+  <!-- News Letter Section Start  -->
+
+  <section id="newsletter" class="section-p1">
+      <div class="letter">
+        <h3>Sign Up For Newsletters</h3>
+        <p>Get E-mail updates about our latest shop and <span> special offers</span></p>
+      </div>
+      <div class="input">
+        <input type="email" placeholder="Your email address">
+        <button>Sign Up</button>
+      </div>
+  </section>
+
+  <!-- News Letter Section end  -->
+
+  <!-- Footer Section  -->
+
+  <!-- Footer Section start  -->
+  
+  <section id="footer"  class="section-p1">
+      <div class="foot foot1">
+        <img src="./img/logo.png" class="footlogo" alt="logo-image">
+        <h4>Contact</h4>
+        <li><span>Address: </span>345 Wellington Road,San Francisco</li>
+        <li><span>Phone: </span>+01 7777 555 / (+91) 9876543210</li>
+        <li><span>Hours: </span>08 AM - 10 PM EST</li>
+        <h4>Follow Us</h4>
+        <div class="follow-icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-pinterest-p"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+      <div class="foot foot2">
+      <h4>About</h4>
+      <a href="">About Us</a>
+      <a href="">Delivery Information</a>
+      <a href="">Privacy Policy</a>
+      <a href="">Terms & Conditions</a>
+      <a href="">Contact Us</a>
+      </div>
+      <div class="foot foot3">
+        <h4>My Account</h4>
+        <a href="">Sign In</a>
+        <a href="">View Cart</a>
+        <a href="">My Wishlist</a>
+        <a href="">Track My Order</a>
+        <a href="">Help</a>
+      </div>
+      <div class="foot foot4">
+       <h4>Install App</h4>
+       <a href="">From App Store or Google Play</a>
+       <div>
+        <img src="./img/pay/app.jpg" class="app" alt="appstore-image">
+        <img src="./img/pay/play.jpg" class="app" alt="googleplay-image">
+       </div>
+       <a href="">Secured Payment Gateways</a>
+       <img src="./img/pay/pay.png" class="pay"  alt="Pay-image">
+      </div>
+  </section>
+  <!-- Footer Section end  -->
+
+  <!-- Subfooter Section  -->
+
+  <!-- Subfooter Section Start  -->
+
+  <section id="subfooter" class="section-p1">
+    <a href="">&COPY; 2024 Manash Swain HTML CSS JS E-Commerce Design</a>
+  </section>
+  
+  <!-- Subfooter Section end -->
+
+
+   <script src="./home.js"></script> 
+</body>
+</html>
